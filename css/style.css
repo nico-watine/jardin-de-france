@@ -800,7 +800,7 @@ header {
 }
 
 .row {
-  max-width: 75rem;
+  max-width: rem-calc(1200);
   margin-right: auto;
   margin-left: auto;
 }

@@ -1,11 +1,15 @@
+// Variables
+@import '_var.scss';
+@import '_global.scss';
+
 // Functions
 @import 'functions/_functions.scss';
 
-// Variables
-@import '_var.scss';
+// // Variables
+// @import '_var.scss';
 
 // Global !defaults
-@import '_global.scss';
+// @import '_global.scss';
 
 // Elements
 @import 'elements/_elements.scss';

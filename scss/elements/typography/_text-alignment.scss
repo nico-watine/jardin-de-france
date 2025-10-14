@@ -1,0 +1,59 @@
+.text-wrap {
+	white-space: normal !important;
+}
+
+.text-nowrap {
+	white-space: nowrap !important;
+}
+
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+@media print, screen and (min-width: 40em) {
+	.medium-text-left {
+		text-align: left;
+	}
+	.medium-text-right {
+		text-align: right;
+	}
+	.medium-text-center {
+		text-align: center;
+	}
+	.medium-text-justify {
+		text-align: justify;
+	}
+}
+
+@media print, screen and (min-width: 64em) {
+	.large-text-left {
+		text-align: left;
+	}
+	.large-text-right {
+		text-align: right;
+	}
+	.large-text-center {
+		text-align: center;
+	}
+	.large-text-justify {
+		text-align: justify;
+	}
+}

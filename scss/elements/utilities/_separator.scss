@@ -1,0 +1,77 @@
+// ------------------------------------
+// |            SCSS Mixin            |
+// ------------------------------------
+
+// Foundation for Sites by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+/// Default alignment of a separator.
+/// @type String
+$separator-align: center !default;
+
+/// Height of a separator.
+/// @type Number
+$separator-height: rem-calc(2) !default;
+
+/// Width of a separator.
+/// @type Number
+$separator-width: rem-calc(48) !default;
+
+/// Default color of a separator.
+/// @type Color
+$separator-color: #000 !default;
+
+/// Top Margin of a separator.
+/// @type Number
+$separator-margin-top: rem-calc(16) !default;
+
+/// Title separator Utility, mostly used to style the main heading of a section
+/// @param {String} $align [$separator-align] - separator Alignment
+/// @param {Number} $height [$separator-height] - Width
+/// @param {Number} $width [$separator-width] - Height
+/// @param {Color} $color [$separator-color] - Color
+/// @param {Number} $top [$separator-margin-top] - Margin Top
+@mixin separator (
+	$align: $separator-align,
+	$height: $separator-height,
+	$width: $separator-width,
+	$color: $separator-color,
+	$top: $separator-margin-top
+) {
+	text-align: $align !important;
+	@include clearfix;
+
+	&::after {
+		position: relative !important;
+		width: $width;
+		border-bottom: $height solid $color;
+		margin: $top auto 0;
+
+		@if $align == left {
+			margin-left: 0 !important;
+		}
+
+		@if $align == right {
+			margin-right: 0 !important;
+		}
+	}
+}
+
+// ---------------------------------------------------------------------- //
+
+// ---------------------------------------------
+// |            CSS Utility Classes            |
+// ---------------------------------------------
+
+.separator-center {
+	@include separator(center);
+}
+
+.separator-left {
+	@include separator(left);
+}
+
+.separator-right {
+	@include separator(right);
+}

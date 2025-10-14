@@ -1,0 +1,16 @@
+// --------------------------------------------------------------------------- //
+// Global
+// These are the default values to be used if they are not specified in _var.scss
+// This partial is to always be imported after _var.scss and is intended to never be edited
+// ------
+
+$global-font-size: 100% !default;
+$global-width: rem-calc(1200) !default;
+$global-lineheight: 1.5 !default;
+$black: #0a0a0a !default;
+$white: #fefefe !default;
+$body-background: $white !default
+$body-font-color: $black !default;
+$body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$global-weight: normal !default;
+$global-weight-bold: bold !default;

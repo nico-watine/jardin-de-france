@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+
+@font-face {
+	font-family: 'nav';
+	src: url('/fonts/nav/nav.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/nav/nav.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('/fonts/nav/nav.woff') format('woff'), /* Modern Browsers */
+		 url('/fonts/nav/nav.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('/fonts/nav/nav.svg#1da3456e837ae6ef244abd56d21c2bc6') format('svg'); /* Legacy iOS */
+	font-style: normal;
+	font-weight: 400;
+}

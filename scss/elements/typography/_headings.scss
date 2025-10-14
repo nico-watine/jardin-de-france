@@ -1,0 +1,51 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0 0 8px;
+	line-height: 1.4;
+	font-style: normal;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizeLegibility;
+}
+
+// h1,
+// .h1,
+// h2,
+// .h2,
+// h3,
+// .h3,
+// h4,
+// .h4,
+// h5,
+// .h5,
+// h6,
+// .h6 {
+// 	// Styles
+// 	font-family: $h-font-family;
+// 	font-style: normal;
+// 	font-weight: normal;
+// 	color: $h-color; // #0a0a0a
+
+// 	// Metrics
+// 	line-height: 1.2;
+// 	margin-bottom: rem-calc(8);
+
+// 	// Legibility
+// 	text-rendering: optimizeLegibility; // [https://css-tricks.com/almanac/properties/t/text-rendering/] The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
+
+// 	small {
+// 		line-height: 0;
+// 		color: #8a8a8a;
+// 	}
+// }

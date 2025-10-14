@@ -1,0 +1,84 @@
+.gardens-section.hide-for-large {
+	background: #697b99;
+
+	.section-header {
+		background: #697b99 url('/img/gardens/dev/gazebo/gazebo-640.png') center/cover no-repeat;
+		height: 240px;
+
+		.headline {
+			@include separator(left, rem-calc(4), rem-calc(230), #fffeb3, rem-calc(16));
+		}
+	}
+}
+
+@media #{$medium} {
+	.gardens-section.hide-for-large {
+		.section-header {
+			.headline {
+				font-size: $h1-cursive-large;
+			}
+		}
+	}
+}
+
+$minWidth-768: 'only screen and (min-width : 768px)';
+
+@media #{$minWidth-768} {
+	.gardens-section.hide-for-large {
+		.section-header {
+			position: relative;
+			height: rem-calc(440);
+			background: linear-gradient(
+			rgba(17,19,20,.30),
+			rgba(17,19,20,.30)
+			), url('/img/gardens/jardin-de-france-gardens-entry.jpg') center/cover no-repeat;
+
+			.headline {
+				font-size: $h1-cursive-large;
+				position: absolute;
+				bottom: 48px;
+				left: 64px;
+			}
+		}
+	}
+}
+
+// ---------------------------------------------------------------------- //
+
+// -------------------------------
+// |            Large            |
+// -------------------------------
+
+.gardens-section.v2 {
+	.headline {
+		@include separator(left, rem-calc(4), rem-calc(230), #fffeb3, rem-calc(16));
+		margin-bottom: rem-calc(48);
+	}
+
+	.article {
+		margin-bottom: rem-calc(64);
+	}
+}
+
+@media #{$large} {
+	.gardens-section.v2 {
+		.headline {
+			font-size: rem-calc(90);
+		}
+
+		.section-graphic.gazebo-background-image {
+			background: #697b99 url('/img/gardens/dev/gazebo/gazebo.jpg') center/cover no-repeat;
+		}
+	}
+}
+
+$minWidth-1200: 'only screen and (min-width : 1200px)';
+
+@media #{$minWidth-1200} {
+	.gardens-section.v2 {
+		.headline {
+			font-size: $h1-cursive-large;
+			margin-bottom: rem-calc(64);
+		}
+	}
+}

@@ -1,28 +1,6 @@
-.foundation-mq {
-	font-family: 'small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em';
-}
-
-html {
-	box-sizing: border-box;
-	font-size: 100%;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
-.is-visible {
-	display: block !important;
-}
-
-.is-hidden {
-	display: none !important;
-}
-
 .row {
-	max-width: 75rem;
+	// max-width: 75rem; (1200px)
+	max-width: $global-width;
 	margin-right: auto;
 	margin-left: auto;
 }

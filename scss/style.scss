@@ -1,34 +1,28 @@
 // Variables
 @import '_var.scss';
-
-// Normalize
-@import '../bower_components/normalize-css/normalize';
-
-// Foundation 6 grid & basics
-@import 'foundation-6/_foundation-6.scss';
+@import '_global.scss';
 
 // Functions
 @import 'functions/_functions.scss';
 
+// // Variables
+// @import '_var.scss';
+
+// Global !defaults
+// @import '_global.scss';
+
 // Elements
 @import 'elements/_elements.scss';
 
-// Style components
-@import 'components/_typography.scss';
-@import 'components/_resets.scss';
-@import 'components/_utility-classes.scss';
-@import 'components/_buttons.scss';
-@import 'components/slider/_slick.scss';
-@import 'components/slider/_slick-theme.scss';
-@import 'components/_metrics.scss';
-@import 'components/_padding-margin.scss';
+// Pages
+@import 'pages/_pages.scss';
 
-// Page blocks
-@import 'blocks/_body.scss';
-@import 'blocks/_footer.scss';
-@import 'blocks/_header.scss';
-@import 'blocks/_nav.scss';
 
-// Index page styles
-@import 'pages/index/_index.scss';
-@import 'pages/dev/_gardens.scss';
+
+// ---------------------------------------------------------------------- //
+// Obsolete styles to be purged after design review
+
+html,
+body {
+	height: 100%;
+}

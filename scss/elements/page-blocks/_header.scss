@@ -21,7 +21,7 @@ header {
 		text-shadow: 0 6px 10px rgba(0,0,0,.30);
 		z-index: 55;
 		color: $white;
-		font-size: $h1-cursive;
+		// font-size: $h1-cursive;
 	}
 }
 
@@ -46,7 +46,7 @@ header {
 @media #{$medium} {
 	.logo {
 		h1 {
-			font-size: $h1-cursive-medium;
+			// font-size: $h1-cursive-medium;
 		}
 	}
 }

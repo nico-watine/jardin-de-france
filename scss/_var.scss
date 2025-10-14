@@ -1,11 +1,47 @@
-// ---------------------------------------
-// |            Media Queries            |
-// ---------------------------------------
+// ---------------------------------------------------------------------- //
+// CSS Reset Options
+// -----------------
+
+$include-sub-sup: false;
+$include-pre-code: false;
+
+
+// ---------------------------------------------------------------------- //
+// Global
+// ------
+
+$global-font-size: 100%;
+$global-width: rem-calc(1200);
+$global-lineheight: 1.5;
+$black: #0a0a0a;
+$white: #fefefe;
+$body-background: $white url('/img/assets/backgrounds/linen.jpg') top left/auto repeat;
+$body-font-color: $black;
+$body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$global-weight: normal;
+$global-weight-bold: bold;
+
+
+
+
+// ---------------------------------------------------------------------- //
+// Base Typography
+// ---------------
+
+$p-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$h-font-family: $p-font-family;
+
+
+// ---------------------------------------------------------------------- //
+// Media Queries
+// -------------
+
 $small-only: 'only screen and (max-width : 39.9375em)';
 $medium: 'only screen and (min-width : 40em)';
 $medium-only: 'only screen and (min-width: 40em) and (max-width: 63.9375em)';
 $large: 'only screen and (min-width : 64em)';
 $large-only: 'only screen and (min-width: 64em) and (max-width: 74.9375em)';
+
 
 // -------------------------------------------
 // |            Typography Styles            |
@@ -28,19 +64,19 @@ $h4-medium: 21px;
 $h5-medium: 16px;
 $h6-medium: 14px;
 
-$h1-cursive: 60px;
-$h2-cursive: 50px;
-$h3-cursive: 38px;
-$h4-cursive: 28px;
+
 
 // ---------------------------------------------------------------------- //
 // .Cursive fonts
 
+$h1-cursive: 60px;
+$h2-cursive: 50px;
+$h3-cursive: 38px;
+$h4-cursive: 28px;
 $h1-cursive-medium: 70px;
 $h2-cursive-medium: 50px;
 $h3-cursive-medium: 38px;
 $h4-cursive-medium: 28px;
-
 $h1-cursive-large: 110px;
 $h2-cursive-large: 68px;
 $h3-cursive-large: 42px;
@@ -51,26 +87,9 @@ $h4-cursive-large: 26px;
 $cursive-font-family: 'Parisienne', cursive;
 
 
-
-
-// --------------------------------
-// |            Colors            |
-// --------------------------------
-
-// Hexadecimal Color Variables ------------------------------------------- //
-$dark-blue: #697b99;
-$body: #f4f2f2;
-$white: #fefefe;
-$black: #0a0a0a;
-$yellow: #fffeb3;
-
-
-
-// ---------------------------------------
-// |            Visual Styles            |
-// ---------------------------------------
-
-// box-shadow Variables -------------------------------------------------- //
+// ---------------------------------------------------------------------- //
+// box-shadow Values
+// -----------------
 $z-1: 0 1px 4px 0 rgba(0,0,0,.37);
 $z-2: 0 2px 2px 0 rgba(0,0,0,.20), 0 6px 10px 0 rgba(0,0,0,.30);
 $z-3: 0 11px 7px 0 rgba(0,0,0,.19), 0 13px 25px 0 rgba(0,0,0,.30);
@@ -78,9 +97,12 @@ $z-4: 0 14px 12px 0 rgba(0,0,0,.17), 0 20px 40px 0 rgba(0,0,0,.30);
 $z-5: 0 17px 17px 0 rgba(0,0,0,.15), 0 27px 55px 0 rgba(0,0,0,.30);
 
 
-// ----------------------------------------------
-// |            typography Variables            |
-// ----------------------------------------------
-$global-font-size: 100% !default;
-$body-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$header-font-family: $body-font-family;
+// ---------------------------------------------------------------------- //
+// Colors
+// ------
+
+$dark-blue: #697b99;
+$body: #f4f2f2;
+$yellow: #fffeb3;
+$p-color: #0a0a0a;
+$h-color: $p-color;

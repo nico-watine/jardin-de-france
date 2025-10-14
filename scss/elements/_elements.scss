@@ -1,4 +1,7 @@
-@import '_resets.scss';
-// @import '_typography.scss';
-@import '_utilities.scss';
-@import 'blocks/_blocks.scss';
+// All scss aside from "pages" / functions / print-styles / var
+// --------------------------------------------------------- //
+@import '1-reset/_reset.scss';
+@import 'typography/_typography.scss';
+@import 'page-blocks/_page-blocks.scss';
+@import 'site-components/_site-components.scss';
+@import 'utilities/_utilities.scss';

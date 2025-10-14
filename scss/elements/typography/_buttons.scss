@@ -1,23 +1,22 @@
-.button {
-	display: inline-block;
-	vertical-align: middle;
-	margin: 0 0 1rem 0;
-	padding: .85em 1em;
-	border: 1px solid transparent;
-	border-radius: 0;
-	transition: background-color .25s ease-out, color .25s ease-out;
-	font-family: inherit;
-	font-size: .9rem;
-	-webkit-appearance: none;
-	line-height: 1;
-	text-align: center;
+a.button {
+	border: none;
 	cursor: pointer;
-	background-color: #1779ba;
-	color: #fefefe;
-}
+	line-height: normal;
+	position: relative;
+	z-index: 0;
+	text-align: center;
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.20), 0 6px 10px 0 rgba(0,0,0,.30);
+	font-size: $h4; // 21px
+	padding: 16px 32px;
+	text-decoration: none;
+	color: #333;
+	background: #fffeb3;
 
-.button:hover,
-.button:focus {
-	background-color: #14679e;
-	color: #fefefe;
+	&:hover {
+		color: #000;
+		background: #fffe90;
+		box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+	}
 }

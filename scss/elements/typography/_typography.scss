@@ -1,48 +1,19 @@
-@import '_fonts.scss';
+@import 'type-scale/_type-scale.scss';
 
-body {
-	margin: 0;
-	padding: 0;
-	background: #fefefe;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	line-height: 1.5;
-	color: #0a0a0a;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-// -------------------------------------------------------
-// |            Basic Typography Class Styles            |
-// -------------------------------------------------------
-
-p {
-	margin: 0 0 1rem;
-	font-size: $p;
-	line-height: 1.6;
-	text-rendering: optimizeLegibility;
-}
-
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin: 0 0 8px;
-	line-height: 1.4;
-	font-style: normal;
-	font-weight: normal;
-	color: inherit;
-	text-rendering: optimizeLegibility;
-}
+@import '_buttons.scss';
+@import '_figure.scss';
+@import '_font-face.scss';
+@import '_font-family.scss';
+@import '_font-weight.scss';
+@import '_headings.scss';
+@import '_links.scss';
+@import '_lists.scss';
+@import '_text-alignment.scss';
+@import '_text-color.scss';
+@import '_text-decoration.scss';
+@import '_text-styles.scss';
+@import '_text-transform.scss';
+@import '_text-visibility.scss';
 
 // -------------------------------------------------------
 // |            Default sans-serif typography            |
@@ -198,46 +169,9 @@ h4.cursive,
 	}
 }
 
-// --------------------------------
-// |            Colors            |
-// --------------------------------
-
-.white {
-	color: $white;
-}
-
-.black {
-	color: $black;
-}
-
-
-// ------------------------------------------
-// |            <a> style resets            |
-// ------------------------------------------
-
-a {
-	line-height: inherit;
-	color: #2ba6cb;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-a:hover,
-a:focus {
-	color: #258faf;
-}
-
-
-// -------------------------------------------
-// |            Specific Elements            |
-// -------------------------------------------
-
-a.colophon {
-	span {
-		text-decoration: underline;
-	}
-
-	&:hover {
-		text-decoration: underline;
-	}
+p {
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
 }

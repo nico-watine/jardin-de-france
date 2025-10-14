@@ -29,8 +29,8 @@ $minWidth-768: 'only screen and (min-width : 768px)';
 			position: relative;
 			height: rem-calc(440);
 			background: linear-gradient(
-			rgba(17,19,20,0.30),
-			rgba(17,19,20,0.30)
+			rgba(17,19,20,.30),
+			rgba(17,19,20,.30)
 			), url('/img/gardens/jardin-de-france-gardens-entry.jpg') center/cover no-repeat;
 
 			.headline {

@@ -3239,7 +3239,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/blocks/_body.scss": {
+	"/scss/elements/1-reset/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3247,10 +3247,11 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/css/_body.css",
+		"oAP": "/scss/elements/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+<<<<<<< HEAD
 		},
 	"/scss/blocks/_footer.scss": {
 		"aP": 0,
@@ -3420,6 +3421,8 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+=======
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		},
 	"/scss/elements/_elements.scss": {
 		"aP": 0,
@@ -3434,7 +3437,11 @@
 		"oS": 0,
 		"sct": 1
 		},
+<<<<<<< HEAD
 	"/scss/elements/page-blocks/_header.scss": {
+=======
+	"/scss/elements/page-blocks/_footer.scss": {
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3442,12 +3449,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
+<<<<<<< HEAD
 		"oAP": "/scss/elements/css/_header.css",
+=======
+		"oAP": "/scss/elements/css/_footer.css",
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
+<<<<<<< HEAD
 	"/scss/elements/page-blocks/_nav.scss": {
+=======
+	"/scss/elements/page-blocks/_header.scss": {
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3455,12 +3470,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
+<<<<<<< HEAD
 		"oAP": "/scss/elements/css/_nav.css",
+=======
+		"oAP": "/scss/elements/css/_header.css",
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
+<<<<<<< HEAD
 	"/scss/elements/page-blocks/_page-blocks.scss": {
+=======
+	"/scss/elements/page-blocks/_nav.scss": {
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3468,12 +3491,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
+<<<<<<< HEAD
 		"oAP": "/scss/elements/css/_page-blocks.css",
+=======
+		"oAP": "/scss/elements/css/_nav.css",
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
+<<<<<<< HEAD
 	"/scss/elements/site-components/_foundation-6-grid.scss": {
+=======
+	"/scss/elements/page-blocks/_page-blocks.scss": {
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -3481,6 +3512,33 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
+<<<<<<< HEAD
+		"oAP": "/scss/elements/css/_foundation-6-grid.css",
+=======
+		"oAP": "/scss/elements/css/_page-blocks.css",
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+<<<<<<< HEAD
+	"/scss/elements/site-components/_site-components.scss": {
+=======
+	"/scss/elements/site-components/_foundation-6-grid.scss": {
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+<<<<<<< HEAD
+		"oAP": "/scss/elements/css/_site-components.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+=======
 		"oAP": "/scss/elements/css/_foundation-6-grid.css",
 		"oF": 0,
 		"oS": 0,
@@ -3498,6 +3556,7 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		},
 	"/scss/elements/typography/_buttons.scss": {
 		"aP": 0,
@@ -4083,6 +4142,7 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+<<<<<<< HEAD
 		},
 	"/scss/foundation-6/_foundation-6.scss": {
 		"aP": 0,
@@ -4148,6 +4208,8 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
+=======
+>>>>>>> feature/the-gardens/scss-directory-cleanup/_base
 		},
 	"/scss/functions/_functions.scss": {
 		"aP": 0,

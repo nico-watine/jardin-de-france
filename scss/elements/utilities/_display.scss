@@ -1,35 +1,38 @@
 .display-none {
-	display: none !important;
+	display: none;
 }
 
 .display-inline {
-	display: inline !important;
+	display: inline;
 }
 
+.inline-block,
 .display-inline-block {
-	display: inline-block !important;
+	display: inline-block;
 }
 
+.block,
 .display-block {
-	display: block !important;
+	display: block;
 }
 
 .display-table {
-	display: table !important;
+	display: table;
 }
 
 .display-table-row {
-	display: table-row !important;
+	display: table-row;
 }
 
 .display-table-cell {
-	display: table-cell !important;
+	display: table-cell;
 }
 
+.flex,
 .display-flex {
-	display: flex !important;
+	display: flex;
 }
 
 .display-inline-flex {
-	display: inline-flex !important;
+	display: inline-flex;
 }

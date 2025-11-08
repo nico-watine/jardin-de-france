@@ -14,16 +14,10 @@
 // Elements
 @import 'elements/_elements.scss';
 
-<<<<<<< HEAD
+
 // Index page styles
 @import 'pages/index/_index.scss';
 
-.example {
-    display: grid;
-    transition: all .5s;
-    user-select: none;
-    background: linear-gradient(to bottom, white, black);
-=======
 // Pages
 @import 'pages/_pages.scss';
 
@@ -35,5 +29,4 @@
 html,
 body {
 	height: 100%;
->>>>>>> feature/the-gardens/_base
 }

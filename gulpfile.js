@@ -6,7 +6,7 @@ gulp.task('default', function () {
 	return gulp.src('css/style.css')
 		.pipe(uncss({
 			ignore: ['.js-nav-active .mask'],
-			html: ['http://nicos-mbp.local:5757/']
+			html: ['http://nicos-16-mbp.local:5757']
 		}))
 		.pipe(nano())
 		.pipe(gulp.dest('./css/opt'));

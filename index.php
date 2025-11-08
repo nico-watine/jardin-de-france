@@ -157,14 +157,9 @@
 	</div>
 </section>
 
-<<<<<<< HEAD
 <section class="interiorGallery" id="interior-gallery">
-	<div class="row collapse sectionIntro">
-=======
-<section class="interiorGallery" id="interiorGallery">
 	<br>
 	<div class="row">
->>>>>>> feature/interior-gallery/_base
 		<div class="medium-6 columns imgWrap">
 			<img src="/img/index-2/interiorGallery/jardin-de-france-houston-antiques.jpg" alt="Jardin de France Houston Antiques">
 			<img class="hide-for-medium" src="/img/index-2/interiorGallery/jardin-de-france-houston-interiors.jpg" alt="Jardin de France Houston Interior Design">
@@ -179,7 +174,6 @@
 			</div>
 		</div>
 	</div>
-<<<<<<< HEAD
 	<div class="imageBanner">
 		<div class="row collapse">
 			<div class="show-for-medium medium-4 large-3 columns">
@@ -197,23 +191,6 @@
 		</div>
 	</div>
 	<br>
-=======
-	<br>
-	<div class="row collapse" style="max-width: 1600px;">
-		<div class="medium-4 large-3 columns">
-			<img style="border-right: 3px solid #fff;" src="/img/index-2/interiorGallery/product/antique-french-knives-set.jpg" alt="">
-		</div>
-		<div class="medium-4 large-3 columns">
-			<img style="border-right: 3px solid #fff;" src="/img/index-2/interiorGallery/product/french-vintage-home-goods.jpg" alt="">
-		</div>
-		<div class="medium-4 large-3 columns">
-			<img style="border-right: 3px solid #fff;" src="/img/index-2/interiorGallery/product/antique-home-pottery.jpg" alt="">
-		</div>
-		<div class="show-for-large large-3 columns">
-			<img style="border-right: 3px solid transparent;" src="/img/index-2/interiorGallery/product/vintage-french-books-lamp.jpg" alt="">
-		</div>
-	</div>
->>>>>>> feature/interior-gallery/_base
 </section>
 
 <section class="roundTop-section">
